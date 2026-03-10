@@ -1,10 +1,9 @@
 #define DEFAULT 0
-#define SYM     1
-#define FUN     2
+#define NUM     1
+#define SYM     2
 #define MOUSE   3 // Auto-Mouse Layer
 #define SCROLL  4 // Motion Scroll Layer
 #define SNIPE   5 // Snipe Mode Layer
-#define NUM     6 // Snipe Mode Layer
 
 #include <behaviors/mouse_keys.dtsi>
 #include <behaviors.dtsi>
@@ -35,7 +34,7 @@ default_layer {
         &kp RIGHT_ALT  &kp Q              &kp W            &kp E            &kp R            &kp T                                                   &kp Y             &kp U                   &kp I             &kp O           &kp P           &kp RIGHT_ALT
         &kp LEFT_SHIFT &kp A              &kp S            &kp D            &kp F            &kp G                                                   &kp H             &kp J                   &kp K             &kp L           &kp SEMI        &kp RIGHT_SHIFT
         &kp LCTRL      &kp Z              &kp X            &kp C            &kp V            &kp B               &kp SPACE         &kp BACKSPACE     &kp N             &kp M                   &kp COMMA         &kp DOT         &kp FSLH        &kp RCTRL
-        &kp LEFT_WIN   &kp LCTRL          &kp LEFT_ALT     &kp LEFT_WIN     &lt 5 ESC        &lt 4 TAB           &mo 2             &mo 2             &lt 1 ENTER                                                             &kp LEFT_ALT   &kp RIGHT_WIN
+        &kp LEFT_WIN   &kp LCTRL          &kp LEFT_ALT     &kp LEFT_WIN     &lt 5 ESC        &lt 4 TAB           &mo 1             &mo 1             &lt 2 ENTER                                                             &kp LEFT_ALT   &kp RIGHT_WIN
     >;
 };
         number_layer {
