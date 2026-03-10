@@ -31,19 +31,19 @@ default_layer {
     label = "QWRT";
     bindings = <
         &kp GRAVE      &kp DOUBLE_QUOTES  &kp APOSTROPHE   &kp EQUAL        &kp EXCLAMATION  &kp PIPE                                                &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS    &kp LEFT_BRACE    &kp QUESTION    &kp AMPERSAND   &kp DOLLAR
-        &kp LEFT_ALT   &kp Q              &kp W            &kp E            &kp R            &kp T                                                   &kp Y             &kp U                   &kp I             &kp O           &kp P           &kp LEFT_ALT
+        &kp RIGHT_ALT  &kp Q              &kp W            &kp E            &kp R            &kp T                                                   &kp Y             &kp U                   &kp I             &kp O           &kp P           &kp RIGHT_ALT
         &kp LEFT_SHIFT &kp A              &kp S            &kp D            &kp F            &kp G                                                   &kp H             &kp J                   &kp K             &kp L           &kp SEMI        &kp RIGHT_SHIFT
         &kp LCTRL      &kp Z              &kp X            &kp C            &kp V            &kp B               &kp SPACE         &kp BACKSPACE     &kp N             &kp M                   &kp COMMA         &kp DOT         &kp FSLH        &kp RCTRL
-        &kp LEFT_WIN   &kp LCTRL          &kp LEFT_ALT     &kp LEFT_WIN     &lt 5 ESC        &lt 4 TAB           &mo 5             &kp ENTER         &lt 2 ENTER                                                             &kp RIGHT_ALT   &kp RIGHT_WIN
+        &kp LEFT_WIN   &kp LCTRL          &kp LEFT_ALT     &kp LEFT_WIN     &lt 5 ESC        &lt 4 TAB           &mo 5             &kp ENTER         &lt 2 ENTER                                                             &kp LEFT_ALT   &kp RIGHT_WIN
     >;
 };
         number_layer {
             bindings = <
-&trans       &kp F1        &kp F2      &kp F3      &kp F4      &kp F5                  &kp  F6              &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  
-&kp AT_SIGN  &kp KP_MINUS  &kp KP_PLUS &kp HASH    &kp PERCENT &kp CARET               &kp LEFT_BRACKET     &kp N7  &kp N8  &kp N9  &trans  &trans
-&trans       &kp LEFT      &kp DOWN    &kp UP      &kp RIGHT   &trans                  &kp LEFT_PARENTHESIS &kp N4  &kp N5  &kp N6  &trans  &trans
-&trans       &trans        &trans      &trans      &trans      &trans  &trans  &trans  &kp LEFT_BRACE       &kp N1  &kp N2  &kp N3  &kp N0  &trans
-&trans       &trans        &trans      &trans      &trans      &trans  &trans  &trans  &trans               &trans  &trans
+&trans       &kp F1        &kp F2      &kp F3      &kp F4      &kp F5                          &kp F6                  &kp F7  &kp F8  &kp F9  &kp F10 &kp F11  
+&kp AT_SIGN  &kp KP_MINUS  &kp KP_PLUS &kp HASH    &kp PERCENT &kp CARET                       &kp LEFT_BRACKET        &kp N7  &kp N8  &kp N9  &trans  &kp F12
+&trans       &kp LEFT      &kp DOWN    &kp UP      &kp RIGHT   &trans                          &kp LEFT_PARENTHESIS    &kp N4  &kp N5  &kp N6  &trans  &kp RIGHT_SHIFT
+&trans       &trans        &trans      &trans      &trans      &trans  &kp UNDERSCORE  &trans  &kp LEFT_BRACE          &kp N1  &kp N2  &kp N3  &kp N0  &kp RCTRL
+&trans       &trans        &trans      &trans      &trans      &trans  &trans          &trans  &trans                                          &trans  &trans
             >;
 
             label = "NUM";
