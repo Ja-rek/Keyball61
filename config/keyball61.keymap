@@ -40,11 +40,11 @@ default_layer {
         number_layer {
             label = "Ja-Rek";
             bindings = <
-&trans       &kp F1        &kp F2      &kp F3      &kp F4      &kp F5                          &kp F6                  &kp F7  &kp F8  &kp F9  &kp F10 &kp F11  
-&kp AT_SIGN  &kp KP_MINUS  &kp KP_PLUS &kp HASH    &kp PERCENT &kp CARET                       &kp LEFT_BRACKET        &kp N7  &kp N8  &kp N9  &trans  &kp F12
-&trans       &kp LEFT      &kp DOWN    &kp UP      &kp RIGHT   &trans                          &kp LEFT_PARENTHESIS    &kp N4  &kp N5  &kp N6  &trans  &kp RIGHT_SHIFT
-&trans       &trans        &trans      &trans      &trans      &trans  &kp UNDERSCORE  &trans  &kp LEFT_BRACE          &kp N1  &kp N2  &kp N3  &kp N0  &kp RCTRL
-&trans       &trans        &trans      &trans      &trans      &trans  &trans          &trans  &trans                                          &trans  &trans
+&trans       &kp F1        &kp F2      &kp F3      &kp F4      &kp F5                          &kp F6                  &kp F7  &kp F8  &kp F9  &kp F10          &kp F11  
+&kp AT_SIGN  &kp KP_MINUS  &kp KP_PLUS &kp HASH    &kp PERCENT &kp CARET                       &kp LEFT_BRACKET        &kp N7  &kp N8  &kp N9  &trans           &kp F12
+&kp STAR     &kp LEFT      &kp DOWN    &kp UP      &kp RIGHT   &trans                          &kp LEFT_PARENTHESIS    &kp N4  &kp N5  &kp N6  &kp RIGHT_SHIFT  &kp PSCRN
+&trans       &trans        &trans      &trans      &trans      &trans  &kp UNDERSCORE  &trans  &kp LEFT_BRACE          &kp N1  &kp N2  &kp N3  &kp N0           &kp RCTRL
+&trans       &trans        &trans      &trans      &trans      &trans  &trans          &trans  &trans                                          &trans           &trans
             >;
         };
 
