@@ -30,21 +30,21 @@
 default_layer {
     label = "Ja-Rek";
     bindings = <
-        &kp GRAVE      &kp DOUBLE_QUOTES  &kp APOSTROPHE   &kp EQUAL        &kp EXCLAMATION  &kp PIPE                                       &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS    &kp LEFT_BRACE    &kp QUESTION    &kp AMPERSAND   &kp DOLLAR
+        &kp GRAVE      &kp APOSTROPHE  &kp DOUBLE_QUOTES   &kp EQUAL        &kp EXCLAMATION  &kp PIPE                                       &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS    &kp LEFT_BRACE    &kp QUESTION    &kp AMPERSAND   &kp DOLLAR
         &kp LEFT_WIN   &kp Q              &kp W            &kp E            &kp R            &kp T                                          &kp Y             &kp U                   &kp I             &kp O           &kp P           &kp RIGHT_WIN
         &kp RIGHT_ALT  &kp A              &kp S            &kp D            &kp F            &kp G                                          &kp H             &kp J                   &kp K             &kp L           &kp FSLH        &kp RIGHT_ALT
         &kp LEFT_SHIFT &kp Z              &kp X            &kp C            &kp V            &kp B      &kp SPACE         &kp BACKSPACE     &kp N             &kp M                   &kp COMMA         &kp DOT         &kp SEMI        &kp RIGHT_SHIFT
-        &kp LCTRL      &kp C_VOL_DN       &kp C_VOL_UP     &kp CAPS         &lt 5 ESC        &mo 1      &lt 4 TAB         &lt 2 ENTER       &mo 1                                                                       &kp LEFT_ALT    &kp RCTRL
+        &kp LCTRL      &kp C_VOL_DN       &kp C_VOL_UP     &kp C_PLAY_PAUSE         &lt 5 ESC        &mo 1      &lt 4 TAB         &lt 2 ENTER       &mo 1                                                                       &kp LEFT_ALT    &kp RCTRL
     >;
 };
         number_layer {
             label = "C#";
             bindings = <
-&kp F12          &kp F1        &kp F2      &kp F3      &kp F4      &kp F5                          &kp F6                 &kp F7  &kp F8  &kp F9  &kp F10          &kp F11  
-&kp LEFT_WIN     &kp KP_MINUS  &kp KP_PLUS &kp HASH    &kp PERCENT &kp CARET                       &kp RIGHT_BRACKET      &kp N7  &kp N8  &kp N9  &kp PSCRN        &kp RIGHT_WIN  
-&kp RIGHT_ALT    &kp DEL       &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT                       &kp RIGHT_PARENTHESIS  &kp N4  &kp N5  &kp N6  &kp RIGHT_SHIFT  &kp RIGHT_ALT  
-&kp LEFT_SHIFT   &kp AT_SIGN   &kp STAR    &kp SLASH   &trans      &trans  &kp UNDERSCORE  &trans  &kp RIGHT_BRACE        &kp N1  &kp N2  &kp N3  &kp N0           &kp RIGHT_SHIFT
-&kp LCTRL        &trans        &trans      &trans      &trans      &trans  &trans          &trans  &trans                                         &trans           &kp RCTRL      
+&kp F12          &kp F1        &kp F2       &kp F3      &kp F4      &kp F5                          &kp F6            &kp F7  &kp F8  &kp F9  &kp F10          &kp F11  
+&kp LEFT_WIN     &kp KP_PLUS   &kp KP_MINUS &kp HASH    &kp PERCENT &kp CARET                       &kp K_APPLICATION &kp N7  &kp N8  &kp N9  &kp PSCRN        &kp RIGHT_WIN  
+&kp RIGHT_ALT    &kp DEL       &kp LEFT     &kp DOWN    &kp UP      &kp RIGHT                       &kp BACKSLASH     &kp N4  &kp N5  &kp N6  &kp RIGHT_SHIFT  &kp RIGHT_ALT  
+&kp LEFT_SHIFT   &kp AT_SIGN   &kp STAR     &kp SLASH   &trans      &trans  &kp UNDERSCORE  &trans  &kp CAPS          &kp N1  &kp N2  &kp N3  &kp N0           &kp RIGHT_SHIFT
+&kp LCTRL        &trans        &trans       &trans      &trans      &trans  &trans          &trans  &trans                                    &trans           &kp RCTRL      
             >;
         };
 
@@ -73,11 +73,11 @@ default_layer {
         mouse_layer {
             label = "MOUSE";
             bindings = <
-&trans  &trans    &trans    &trans  &trans     &trans                  &trans         &trans     &trans  &trans     &trans     &trans
-&trans  &trans    &trans    &trans  &trans     &trans                  &trans         &trans     &trans  &trans     &trans     &trans
-&trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans                  &kp PAGE_UP    &mkp LCLK  &trans  &mkp RCLK  &mkp MCLK  &trans
-&trans  &trans    &trans    &trans  &trans     &trans  &trans  &trans  &kp PAGE_DOWN  &trans     &trans  &trans     &trans     &trans
-&trans  &trans    &trans    &trans  &trans     &trans  &trans  &trans  &mo 3                                        &trans     &trans
+&trans  &trans    &trans    &trans  &trans     &trans                  &kp RIGHT_BRACKET &kp RIGHT_PARENTHESIS &kp RIGHT_BRACE &trans    &trans    &trans
+&trans  &trans    &trans    &trans  &trans     &trans                  &trans           &trans               &trans         &trans    &trans    &trans
+&trans  &trans    &trans    &trans  &trans     &trans                  &kp PAGE_UP      &mkp LCLK            &trans         &mkp RCLK &mkp MCLK &trans
+&trans  &trans    &trans    &trans  &trans     &trans  &trans  &trans  &kp PAGE_DOWN    &trans               &trans         &trans    &trans    &trans
+&trans  &trans    &trans    &trans  &trans     &trans  &trans  &trans  &mo 3                                                &trans    &trans
             >;
         };
 
